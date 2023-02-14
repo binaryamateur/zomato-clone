@@ -1,0 +1,135 @@
+
+
+
+.header{
+    display: flex;
+    flex-direction: column;    
+    gap: 2rem;
+    width: 100%;
+}
+
+.top{
+    width:100%;
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.links{
+    color: rgb(130, 130, 130);
+    font-weight: 300;
+    font-size: 0.8rem;
+    line-height: 0.8rem;    
+}
+
+.link{
+    padding: 0rem 0.8rem;
+
+}
+
+.link:first-of-type{
+    padding-left: 0rem;
+}
+
+.location {
+    color: rgb(207, 207, 207);
+    padding-left: 0.8rem;
+}
+
+.input-wrapper{
+    display: flex;
+    border: 1px solid rgb(232, 232, 232);
+    border-radius: 10px;
+    box-shadow: rgb(28 28 28 / 8%) 0px 2px 8px;
+    height: 3rem;
+    padding: 10px;
+    flex: 3;
+    
+}
+
+.joined-input{
+    border: none;
+    height: 100%;
+    min-width: 1.5rem;
+    outline: none;
+}
+
+.side-buttons {
+    --button-size: 1rem;
+    display: flex;
+    font-size: var(--button-size);
+    gap: 2rem;
+    margin-left: auto;
+    align-items: baseline;
+    font-weight: 300;
+    line-height: 1.5;
+    color: rgb(105, 105, 105);
+    font-size: 1.1rem;
+    margin-left: auto;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.logo{
+    max-width: 130px;
+}
+
+.address{
+    margin-right: 0.8rem;
+    flex-basis: 13rem;
+}
+
+.search {
+    border-left: 1px solid rgb(232, 232, 232);
+    padding-left: 0.8rem;
+    flex-shrink: 1;
+    max-width: 10rem;
+}
+
+
+.menu{
+    display: none;
+    width: 1.5rem;
+    margin-left: -5px;
+}
+
+@media(max-width: 810px){
+    .input-wrapper{
+        display: none;
+    }
+    .side-buttons{
+        display: none;
+    }
+    .top{
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+    .menu{
+        display: revert;
+    }
+
+}
+
+
+@media(max-width: 550px){
+    .links{
+        display: flex;
+        flex-direction: column;
+    }
+    .seperator{
+        display: none;
+    }
+    .link{
+        padding: 1rem 0rem;
+        color: rgb(54, 54, 54);
+        border-bottom: 1px solid rgb(232, 232, 232);
+        font-size: 0.9rem;
+    }
+    .location{
+        padding: 1rem 0rem;
+        border-bottom: 1px solid rgb(232, 232, 232);
+        font-size: 0.9rem;
+    }
+    
+
+}

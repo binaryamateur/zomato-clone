@@ -1,0 +1,40 @@
+.sticky-header{
+    margin: 0px auto;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    padding: 0.5rem 0;
+    overflow: scroll;
+}
+
+.items-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.button{
+    border: 1px solid rgb(207, 207, 207);
+    color: rgb(156, 156, 156);
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(54 54 54 / 6%) 0px 1px 2px;
+    border-radius: 0.5rem;
+    padding: 0.6rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+@media(max-width: 550px){
+    .items-wrapper{
+        min-width: 660px;
+        justify-content: center;
+    }
+    .button{
+        margin-top: 0rem;
+        margin-bottom: 0.5rem;
+    }
+    .sticky-header::-webkit-scrollbar { 
+        display: none;  /* Safari and Chrome */
+    }
+}

@@ -1,0 +1,12 @@
+.rest{
+    position: relative;
+    width: 100%;
+    padding: 1.1rem 0rem;
+    min-height: 200vh; 
+}
+
+@media(max-width: 550px){
+    .rest{
+        padding: 0.5rem;
+    }
+}

@@ -6,6 +6,15 @@
     flex-direction: column;    
     gap: 2rem;
     width: 100%;
+    padding-top: 0.8rem;
+}
+
+.max-width-wrapper{
+    max-width: 1094px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left:0.8rem;
+    padding-right: 0.8rem;
 }
 
 .top{
@@ -44,6 +53,7 @@
     height: 3rem;
     padding: 10px;
     flex: 3;
+    align-items: center;
     
 }
 
@@ -75,12 +85,22 @@
 }
 
 .address{
-    margin-right: 0.8rem;
+    margin-right: 0.5rem;
     flex-basis: 13rem;
+    margin-left: 0.2rem;
+
 }
 
+
+.line{
+    border:0.5px solid rgb(232, 232, 232);
+    margin-right: 0.5rem;
+   min-height: 20px;
+}
+
+
 .search {
-    border-left: 1px solid rgb(232, 232, 232);
+    
     padding-left: 0.8rem;
     flex-shrink: 1;
     max-width: 10rem;
@@ -130,6 +150,6 @@
         border-bottom: 1px solid rgb(232, 232, 232);
         font-size: 0.9rem;
     }
-    
+
 
 }

@@ -5,16 +5,20 @@ import { main } from './Main.js';
 import { footer } from './Footer.js';
 import { subHeader } from './SubHeader.js';
 
-const app = document.createElement('div');
+const body = document.body;
 console.log(styles);
-app.classList.add(styles.app);
-app.classList.add(styles["max-width-wrapper"]);
+// app.classList.add(styles.app);
+// app.classList.add(styles["max-width-wrapper"]);
 
-const header = new Header("https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png", "Log in", "Sign up");
+const header = new Header("https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png", 
+"Log in",
+ "Sign up",
+ [["Thakur Wara", "Sohna", "India"], ["Tilka Manjhi", "Bihar", "India"],["Eastern Reef", "Sydney", "Australia"]]
+ );
 console.log(header);
-app.append(header.get());
+body.append(header.get());
 const rest = new Rest();
-app.append(rest.get());
+body.append(rest.get());
 
 // app.append(subHeader);
 // app.append(main);

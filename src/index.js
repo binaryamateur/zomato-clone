@@ -1,4 +1,4 @@
-import styles from  './styles/main.module.css';
+import styles from  './styles/index.module.css';
 import { Header } from './Header.js';
 import { Rest } from './Rest';
 import { main } from './Main.js';

@@ -1,4 +1,4 @@
-import styles from "./styles/stickyheader.css"
+import styles from "./styles/stickyheader.module.css"
 
 class StickyHeader{
     constructor(list){

@@ -1,4 +1,4 @@
-import styles from  './styles/header.css';
+import styles from  './styles/header.module.css';
 
 class Header {
     constructor(logoUrl, button1, button2, locations){
@@ -33,8 +33,8 @@ class Header {
                 <input class = "${styles["joined-input"]} ${styles["search"]}"/>
             </div> 
             <div class = "${styles["side-buttons"]}">
-                <div>${button1}</div>
-                <div>${button2}</div>
+                <div class  = "${styles["side-button"]}">${button1}</div>
+                <div class  = "${styles["side-button"]}">${button2}</div>
             </div>
             <img class = "${styles.menu}" src="https://img.icons8.com/ios-filled/50/null/menu-rounded.png"/>
         </div>

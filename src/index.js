@@ -1,4 +1,4 @@
-import styles from  './styles/main.css';
+import styles from  './styles/main.module.css';
 import { Header } from './Header.js';
 import { Rest } from './Rest';
 import { main } from './Main.js';
@@ -19,10 +19,3 @@ console.log(header);
 body.append(header.get());
 const rest = new Rest();
 body.append(rest.get());
-
-// app.append(subHeader);
-// app.append(main);
-// app.append(footer);
-
-
-document.body.append(app);

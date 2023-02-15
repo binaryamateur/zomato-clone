@@ -1,4 +1,4 @@
-import styles from "./styles/subHeader.module.css";
+import styles from "./styles/subheader.module.css";
 import { PICTURES } from "../constants";
 
 class SubHeader{

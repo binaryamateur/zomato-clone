@@ -14,7 +14,7 @@
 
 .restaurant-list{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, minmax(10rem, 1fr));
     gap: 2.375rem 2.375rem;
 }
 

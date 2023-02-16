@@ -13,6 +13,13 @@ class Main{
                 ${new Card("Carribean Pizza", "https://b.zmtcdn.com/data/pictures/4/19133644/711f8275e6e320a447c52854ed9f2f88_o2_featured_v2.jpg", 50, 100, 26, 3.1,"North Indian, Chinese", 150, 1125).get().outerHTML}
                 ${new Card("Carribean Pizza", "https://b.zmtcdn.com/data/pictures/4/19133644/711f8275e6e320a447c52854ed9f2f88_o2_featured_v2.jpg", 50, 100, 24, 3.2,"North Indian", 350, 500).get().outerHTML}
                 ${new Card("Carribean Pizza", "https://b.zmtcdn.com/data/pictures/4/19133644/711f8275e6e320a447c52854ed9f2f88_o2_featured_v2.jpg", 50, 100, 21, 3.4, "North Indian, Mughlai, Chinese", 200, 700).get().outerHTML}
+                ${new Card("Carribean Pizza", "https://b.zmtcdn.com/data/pictures/4/19133644/711f8275e6e320a447c52854ed9f2f88_o2_featured_v2.jpg", 50, 100, 21, 3.4, "North Indian, Mughlai, Chinese", 200, 700).get().outerHTML}
+                ${new Card("Carribean Pizza", "https://b.zmtcdn.com/data/pictures/4/19133644/711f8275e6e320a447c52854ed9f2f88_o2_featured_v2.jpg", 50, 100, 21, 3.4, "North Indian, Mughlai, Chinese", 200, 700).get().outerHTML}
+                ${new Card("Carribean Pizza", "https://b.zmtcdn.com/data/pictures/4/19133644/711f8275e6e320a447c52854ed9f2f88_o2_featured_v2.jpg", 50, 100, 21, 3.4, "North Indian, Mughlai, Chinese", 200, 700).get().outerHTML}
+                ${new Card("Carribean Pizza", "https://b.zmtcdn.com/data/pictures/4/19133644/711f8275e6e320a447c52854ed9f2f88_o2_featured_v2.jpg", 50, 100, 21, 3.4, "North Indian, Mughlai, Chinese", 200, 700).get().outerHTML}
+                ${new Card("Carribean Pizza", "https://b.zmtcdn.com/data/pictures/4/19133644/711f8275e6e320a447c52854ed9f2f88_o2_featured_v2.jpg", 50, 100, 21, 3.4, "North Indian, Mughlai, Chinese", 200, 700).get().outerHTML}
+                ${new Card("Carribean Pizza", "https://b.zmtcdn.com/data/pictures/4/19133644/711f8275e6e320a447c52854ed9f2f88_o2_featured_v2.jpg", 50, 100, 21, 3.4, "North Indian, Mughlai, Chinese", 200, 700).get().outerHTML}
+                ${new Card("Carribean Pizza", "https://b.zmtcdn.com/data/pictures/4/19133644/711f8275e6e320a447c52854ed9f2f88_o2_featured_v2.jpg", 50, 100, 21, 3.4, "North Indian, Mughlai, Chinese", 200, 700).get().outerHTML}
             </div>
         `;
     }

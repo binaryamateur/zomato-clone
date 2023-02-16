@@ -17,5 +17,5 @@ const header = new Header("https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c5
  );
 console.log(header);
 body.append(header.get());
-const rest = new Rest();
+const rest = new Rest("https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png");
 body.append(rest.get());

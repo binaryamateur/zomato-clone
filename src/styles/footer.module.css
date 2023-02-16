@@ -1,0 +1,105 @@
+
+.footer-content{
+    padding-bottom: 2rem;
+    border-bottom: 1px solid rgb(207, 207, 207);
+}
+
+.footer-header{
+    padding-top: 3.5rem;
+    margin-bottom: 3.1rem;
+}
+
+.footer-content{
+    display: grid;
+    gap: 1.6rem;   
+    grid-template-columns: 1fr 1fr 1.5fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "about zomaverse restaurants learn social"
+    "about zomaverse enterprises learn social";
+}
+
+.about{
+    grid-area: about;
+}
+
+.zomaverse{
+    grid-area: zomaverse;
+}
+
+.restaurants{
+    grid-area: restaurants;
+}
+
+.learn{
+    grid-area: learn;
+}
+
+.social{
+    grid-area: social;
+}
+
+.enterprises{
+    grid-area: enterprises;
+}
+
+.logo{
+    max-width: 130px;
+}
+
+.max-width-wrapper{
+    max-width: 1094px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left:0.8rem;
+    padding-right: 0.8rem;
+}
+
+
+
+.footer-wrapper{
+    width: 100%;
+    background-color: rgb(248, 248, 248);
+}
+
+
+.column-header{
+    margin-bottom: 1rem;
+}
+
+.column-body > div, .bottom{
+    margin-bottom: 0.6rem;
+    font-size: 0.9rem;
+    color: rgb(105, 105, 105);
+    font-weight: 300;
+}
+
+.bottom{
+    padding: 1.8rem 0rem; 
+    font-size: 0.8rem;
+}
+
+.social-icons{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.app-icon-wrapper{
+    height: 40px;
+    width: 137px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.app-icon{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.social-body{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}

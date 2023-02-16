@@ -6,7 +6,7 @@ class Expandable{
         this.content = document.createElement("div");
         this.content.className = styles.expandable;
         this.content.innerHTML = `
-        <div class = "${styles["heading-wrapper"]}">
+        <div id = "heading${id}" class = "${styles["heading-wrapper"]}">
             <div class = "${styles.heading}">
                 ${heading}
             </div>
@@ -38,7 +38,7 @@ class Expandable{
         }
 
         console.log("Here is queryselctor", this.content.querySelector(`#a${id}`));
-        this.content.querySelector(`#a${id}`).addEventListener("click", (e) => {
+        this.content.querySelector(`#heading${id}`).addEventListener("click", (e) => {
             if(this.isOpen){
                 this.content.querySelector(`#list${id}`).classList.remove(`${styles.visible}`);
                 this.content.querySelector(`#a${id}`).style.transform = "rotate(0deg)";

@@ -1,7 +1,3 @@
-.main{
-
-}
-
 .max-width-wrapper{
     max-width: 1094px;
     margin-left: auto;
@@ -20,4 +16,27 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 2.375rem 2.375rem;
+}
+
+.search-end-wrapper{
+    display: flex;
+    margin: 0px auto;
+    margin-top: 1rem;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 146px;
+}
+
+.search-end{
+    font-size: 1.5rem;
+}
+
+.search-end-image-wrapper{
+    width: 8rem;
+}
+
+.search-end-image{
+    width: 100%;
+    height: 100%;
 }

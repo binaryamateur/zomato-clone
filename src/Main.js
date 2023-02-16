@@ -21,6 +21,17 @@ class Main{
                 ${new Card("Carribean Pizza", "https://b.zmtcdn.com/data/pictures/4/19133644/711f8275e6e320a447c52854ed9f2f88_o2_featured_v2.jpg", 50, 100, 21, 3.4, "North Indian, Mughlai, Chinese", 200, 700).get().outerHTML}
                 ${new Card("Carribean Pizza", "https://b.zmtcdn.com/data/pictures/4/19133644/711f8275e6e320a447c52854ed9f2f88_o2_featured_v2.jpg", 50, 100, 21, 3.4, "North Indian, Mughlai, Chinese", 200, 700).get().outerHTML}
             </div>
+
+            <div class = "${styles["search-end-wrapper"]}">
+                <div class = "${styles["search-end"]}">
+                    End of search results
+                </div>
+                <div class = ${styles["search-end-image-wrapper"]}>
+                    <img alt="End of search results" 
+                    src="https://b.zmtcdn.com/web/assets/search/6d548ba48f0e4e4b46c19ad4b15a3f011615379209.jpeg" 
+                    class = "${styles["search-end-image"]}" />
+                </div>
+            </div>
         `;
     }
 

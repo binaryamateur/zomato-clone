@@ -1,0 +1,51 @@
+.expandable{
+    border: 1px solid rgb(232, 232, 232);
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    margin-top: 24px;
+    background-color: white;
+}
+
+.heading-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading{
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+.arrow-toggle{
+    /* transform: rotate(180deg); */
+    transition: transform 200ms linear;
+}
+
+.list-item-wrapper{
+    margin-top: 2.4rem;
+    color: rgb(130, 130, 130);
+    font-weight: 300;
+    display: none;
+}
+
+.list-item{
+    font-size: 1.1rem;
+    line-height: 1.8;
+    /* margin-right: 1rem; */
+}
+
+.seperator{
+    width: 0.2rem;
+    height: 0.2rem;
+    background: rgb(130, 130, 130);
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0rem 0.2rem;
+    margin-bottom: 0.2rem;
+
+}
+
+
+.visible{
+    display: block;
+}

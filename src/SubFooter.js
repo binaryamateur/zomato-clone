@@ -3,7 +3,7 @@ import styles from "./styles/subfooter.module.css";
 
 class SubFooter {
     constructor(){
-        this.content = document.createElement("div");
+        this.content = document.createElement("section");
         this.content.className = styles["sub-footer-wrapper"];
         const heading = document.createElement("div");
         heading.className = styles["heading"];

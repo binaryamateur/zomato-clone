@@ -2,7 +2,7 @@ import styles from  './styles/header.module.css';
 
 class Header {
     constructor(logoUrl, button1, button2, locations){
-        this.content = document.createElement('div');
+        this.content = document.createElement('header');
         this.content.className = styles.header;
         this.content.classList.add(styles["max-width-wrapper"]);
         this.content.innerHTML = `

@@ -6,7 +6,7 @@ class SubHeader{
         // console.log(coreStyles);
         // console.log(optionStyles);
         console.log(styles);
-        this.content = document.createElement('div');
+        this.content = document.createElement('section');
         this.content.className = styles["sub-header-wrapper"];
         this.currentFoodItem = 0;
         this.content.innerHTML = `

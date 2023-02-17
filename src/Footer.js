@@ -2,7 +2,7 @@ import styles from "./styles/footer.module.css";
 
 class Footer{
     constructor(logoUrl){
-        this.content = document.createElement("div");
+        this.content = document.createElement("footer");
         this.content.className = styles["footer-wrapper"];
         this.content.innerHTML = `
         <div class = "${styles.footer} ${styles["max-width-wrapper"]}">

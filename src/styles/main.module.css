@@ -40,3 +40,15 @@
     width: 100%;
     height: 100%;
 }
+
+@media(max-width: 810px){
+    .restaurant-list{
+        grid-template-columns: repeat(2, minmax(10rem, 1fr));
+    }
+}
+
+@media(max-width: 550px){
+    .restaurant-list{
+        grid-template-columns: 1fr;
+    }
+}

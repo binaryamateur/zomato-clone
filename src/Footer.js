@@ -1,10 +1,10 @@
 import styles from "./styles/footer.module.css";
 
-class Footer{
-    constructor(logoUrl){
-        this.content = document.createElement("footer");
-        this.content.className = styles["footer-wrapper"];
-        this.content.innerHTML = `
+class Footer {
+	constructor(logoUrl) {
+		this.content = document.createElement("footer");
+		this.content.className = styles["footer-wrapper"];
+		this.content.innerHTML = `
         <div class = "${styles.footer} ${styles["max-width-wrapper"]}">
             <div class = "${styles["footer-header"]}">
                 <img src = ${logoUrl} class = "${styles.logo}" />
@@ -111,11 +111,11 @@ class Footer{
             </div>
         </div>
         `;
-    }
+	}
 
-    get(){
-        return this.content;
-    }
+	get() {
+		return this.content;
+	}
 }
 
-export {Footer};
+export { Footer };

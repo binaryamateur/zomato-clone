@@ -51,4 +51,260 @@ const PICTURES = [
 ];
 
 
-export {BREAKPOINTS, PICTURES};
+const LIST = [
+
+    {filter: -1,
+    restaurantList: [{
+        name: "Carribean Pizza",
+        imgUrl: "https://b.zmtcdn.com/data/pictures/4/19133644/711f8275e6e320a447c52854ed9f2f88_o2_featured_v2.jpg",
+        off: 50,
+        upto: 100,
+        time: 26,
+        rating: 3.1,
+        types: "North Indian, Chinese, Mughlai",
+        cost: 300,
+        order_placed: 1125
+    },
+    {
+        name: "Carribean Pizza",
+        imgUrl: "https://b.zmtcdn.com/data/pictures/4/19133644/711f8275e6e320a447c52854ed9f2f88_o2_featured_v2.jpg",
+        off: 50,
+        upto: 100,
+        time: 26,
+        rating: 3.1,
+        types: "North Indian, Chinese, Mughlai",
+        cost: 300,
+        order_placed: 1125
+    },
+    {
+        name: "Carribean Pizza",
+        imgUrl: "https://b.zmtcdn.com/data/pictures/4/19133644/711f8275e6e320a447c52854ed9f2f88_o2_featured_v2.jpg",
+        off: 50,
+        upto: 100,
+        time: 26,
+        rating: 3.1,
+        types: "North Indian, Chinese, Mughlai",
+        cost: 300,
+        order_placed: 1125
+    },
+    {
+        name: "Carribean Pizza",
+        imgUrl: "https://b.zmtcdn.com/data/pictures/4/19133644/711f8275e6e320a447c52854ed9f2f88_o2_featured_v2.jpg",
+        off: 50,
+        upto: 100,
+        time: 26,
+        rating: 3.1,
+        types: "North Indian, Chinese, Mughlai",
+        cost: 300,
+        order_placed: 1125
+    },
+    {
+        name: "Carribean Pizza",
+        imgUrl: "https://b.zmtcdn.com/data/pictures/4/19133644/711f8275e6e320a447c52854ed9f2f88_o2_featured_v2.jpg",
+        off: 50,
+        upto: 100,
+        time: 26,
+        rating: 3.1,
+        types: "North Indian, Chinese, Mughlai",
+        cost: 300,
+        order_placed: 1125
+    }
+    ,{
+        name: "Carribean Pizza",
+        imgUrl: "https://b.zmtcdn.com/data/pictures/4/19133644/711f8275e6e320a447c52854ed9f2f88_o2_featured_v2.jpg",
+        off: 50,
+        upto: 100,
+        time: 26,
+        rating: 3.1,
+        types: "North Indian, Chinese, Mughlai",
+        cost: 300,
+        order_placed: 1125
+    }
+    ,{
+        name: "Carribean Pizza",
+        imgUrl: "https://b.zmtcdn.com/data/pictures/4/19133644/711f8275e6e320a447c52854ed9f2f88_o2_featured_v2.jpg",
+        off: 50,
+        upto: 100,
+        time: 26,
+        rating: 3.1,
+        types: "North Indian, Chinese, Mughlai",
+        cost: 300,
+        order_placed: 1125
+    },
+    {
+        name: "Carribean Pizza",
+        imgUrl: "https://b.zmtcdn.com/data/pictures/4/19133644/711f8275e6e320a447c52854ed9f2f88_o2_featured_v2.jpg",
+        off: 50,
+        upto: 100,
+        time: 26,
+        rating: 3.1,
+        types: "North Indian, Chinese, Mughlai",
+        cost: 300,
+        order_placed: 1125
+    }
+    ,{
+        name: "Carribean Pizza",
+        imgUrl: "https://b.zmtcdn.com/data/pictures/4/19133644/711f8275e6e320a447c52854ed9f2f88_o2_featured_v2.jpg",
+        off: 50,
+        upto: 100,
+        time: 26,
+        rating: 3.1,
+        types: "North Indian, Chinese, Mughlai",
+        cost: 300,
+        order_placed: 1125
+    }
+    ,{
+        name: "Carribean Pizza",
+        imgUrl: "https://b.zmtcdn.com/data/pictures/4/19133644/711f8275e6e320a447c52854ed9f2f88_o2_featured_v2.jpg",
+        off: 50,
+        upto: 100,
+        time: 26,
+        rating: 3.1,
+        types: "North Indian, Chinese, Mughlai",
+        cost: 300,
+        order_placed: 1125
+    }]},
+    {
+        filter: 0,
+        restaurantList: [
+            {
+                name: "Domino's Pizza",
+                imgUrl: "https://b.zmtcdn.com/data/pictures/3/19048143/e65807a27ea1ae58175bde46ca4e75d9_o2_featured_v2.jpg?output-format=webp",
+                off: 30,
+                upto: 75,
+                time: 31,
+                rating: 3.8,
+                types: "Italian",
+                cost: 250,
+                order_placed: 800
+            },
+            {
+                name: "Domino's Pizza",
+                imgUrl: "https://b.zmtcdn.com/data/pictures/3/19048143/e65807a27ea1ae58175bde46ca4e75d9_o2_featured_v2.jpg?output-format=webp",
+                off: 30,
+                upto: 75,
+                time: 31,
+                rating: 3.8,
+                types: "Italian",
+                cost: 250,
+                order_placed: 800
+            },
+            {
+                name: "Domino's Pizza",
+                imgUrl: "https://b.zmtcdn.com/data/pictures/3/19048143/e65807a27ea1ae58175bde46ca4e75d9_o2_featured_v2.jpg?output-format=webp",
+                off: 30,
+                upto: 75,
+                time: 31,
+                rating: 3.8,
+                types: "Italian",
+                cost: 250,
+                order_placed: 800
+            },
+            {
+                name: "Domino's Pizza",
+                imgUrl: "https://b.zmtcdn.com/data/pictures/3/19048143/e65807a27ea1ae58175bde46ca4e75d9_o2_featured_v2.jpg?output-format=webp",
+                off: 30,
+                upto: 75,
+                time: 31,
+                rating: 3.8,
+                types: "Italian",
+                cost: 250,
+                order_placed: 800
+            },
+        ]
+    },
+    {
+        filter: 1,
+        restaurantList: [
+            {
+                name: "Burger King",
+                imgUrl: "https://b.zmtcdn.com/data/pictures/chains/1/19841191/2a1d782dc369c9f834159b0ec112cd39_o2_featured_v2.jpg",
+                off: 15,
+                upto: 150,
+                time: 15,
+                rating: 4.1,
+                types: "American",
+                cost: 150,
+                order_placed: 3100
+            },
+            {
+                name: "Burger King",
+                imgUrl: "https://b.zmtcdn.com/data/pictures/chains/1/19841191/2a1d782dc369c9f834159b0ec112cd39_o2_featured_v2.jpg",
+                off: 15,
+                upto: 150,
+                time: 15,
+                rating: 4.1,
+                types: "American",
+                cost: 150,
+                order_placed: 3100
+            },
+            {
+                name: "Burger King",
+                imgUrl: "https://b.zmtcdn.com/data/pictures/chains/1/19841191/2a1d782dc369c9f834159b0ec112cd39_o2_featured_v2.jpg",
+                off: 15,
+                upto: 150,
+                time: 15,
+                rating: 4.1,
+                types: "American",
+                cost: 150,
+                order_placed: 3100
+            }
+        ]
+    },
+    {filter: 2,
+    restaurantList:[
+        {name: "Momo Maami",
+        imgUrl: "https://b.zmtcdn.com/data/dish_photos/831/441e854f94d1eae99467e5e8ab3e0831.jpg?output-format=webp",
+        off: 30,
+        upto: 75,
+        time: 31,
+        rating: 3.8,
+        types: "Chinese",
+        cost: 200,
+        order_placed: 500
+    },
+    {name: "Momo Maami",
+    imgUrl: "https://b.zmtcdn.com/data/dish_photos/831/441e854f94d1eae99467e5e8ab3e0831.jpg?output-format=webp",
+    off: 30,
+    upto: 75,
+    time: 31,
+    rating: 3.8,
+    types: "Chinese",
+    cost: 200,
+    order_placed: 500
+    },
+    {name: "Momo Maami",
+        imgUrl: "https://b.zmtcdn.com/data/dish_photos/831/441e854f94d1eae99467e5e8ab3e0831.jpg?output-format=webp",
+        off: 30,
+        upto: 75,
+        time: 31,
+        rating: 3.8,
+        types: "Chinese",
+        cost: 200,
+        order_placed: 500
+    },
+    {name: "Momo Maami",
+        imgUrl: "https://b.zmtcdn.com/data/dish_photos/831/441e854f94d1eae99467e5e8ab3e0831.jpg?output-format=webp",
+        off: 30,
+        upto: 75,
+        time: 31,
+        rating: 3.8,
+        types: "Chinese",
+        cost: 200,
+        order_placed: 500
+    },
+    {name: "Momo Maami",
+        imgUrl: "https://b.zmtcdn.com/data/dish_photos/831/441e854f94d1eae99467e5e8ab3e0831.jpg?output-format=webp",
+        off: 30,
+        upto: 75,
+        time: 31,
+        rating: 3.8,
+        types: "Chinese",
+        cost: 200,
+        order_placed: 500
+    },
+    ]},
+   
+];
+
+export {BREAKPOINTS, PICTURES, LIST};

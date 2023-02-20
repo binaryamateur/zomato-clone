@@ -1,3 +1,4 @@
+import { LIST } from "../constants";
 import { Card } from "./Card";
 import styles from "./styles/main.module.css";
 
@@ -6,47 +7,36 @@ class Main{
     constructor(id){
         this.content = document.createElement("main");
         this.content.classList.add(styles["max-width-wrapper"]);
-        if(id ==- 1)
-            this.content.innerHTML = `
-                <ul class  = "${styles["restaurant-list"]}">
-                    <li>${new Card("Carribean Pizza", "https://b.zmtcdn.com/data/pictures/4/19133644/711f8275e6e320a447c52854ed9f2f88_o2_featured_v2.jpg", 50, 100, 26, 3.1,"North Indian, Chinese", 150, 1125).get().outerHTML}</li>
-                    <li>${new Card("Carribean Pizza", "https://b.zmtcdn.com/data/pictures/4/19133644/711f8275e6e320a447c52854ed9f2f88_o2_featured_v2.jpg", 50, 100, 24, 3.2,"North Indian", 350, 500).get().outerHTML}</li>
-                    <li>${new Card("Carribean Pizza", "https://b.zmtcdn.com/data/pictures/4/19133644/711f8275e6e320a447c52854ed9f2f88_o2_featured_v2.jpg", 50, 100, 21, 3.4, "North Indian, Mughlai, Chinese", 200, 700).get().outerHTML}</li>
-                    <li>${new Card("Carribean Pizza", "https://b.zmtcdn.com/data/pictures/4/19133644/711f8275e6e320a447c52854ed9f2f88_o2_featured_v2.jpg", 50, 100, 21, 3.4, "North Indian, Mughlai, Chinese", 200, 700).get().outerHTML}</li>
-                    <li>${new Card("Carribean Pizza", "https://b.zmtcdn.com/data/pictures/4/19133644/711f8275e6e320a447c52854ed9f2f88_o2_featured_v2.jpg", 50, 100, 21, 3.4, "North Indian, Mughlai, Chinese", 200, 700).get().outerHTML}</li>
-                    <li>${new Card("Carribean Pizza", "https://b.zmtcdn.com/data/pictures/4/19133644/711f8275e6e320a447c52854ed9f2f88_o2_featured_v2.jpg", 50, 100, 21, 3.4, "North Indian, Mughlai, Chinese", 200, 700).get().outerHTML}</li>
-                    <li>${new Card("Carribean Pizza", "https://b.zmtcdn.com/data/pictures/4/19133644/711f8275e6e320a447c52854ed9f2f88_o2_featured_v2.jpg", 50, 100, 21, 3.4, "North Indian, Mughlai, Chinese", 200, 700).get().outerHTML}</li>
-                    <li>${new Card("Carribean Pizza", "https://b.zmtcdn.com/data/pictures/4/19133644/711f8275e6e320a447c52854ed9f2f88_o2_featured_v2.jpg", 50, 100, 21, 3.4, "North Indian, Mughlai, Chinese", 200, 700).get().outerHTML}</li>
-                    <li>${new Card("Carribean Pizza", "https://b.zmtcdn.com/data/pictures/4/19133644/711f8275e6e320a447c52854ed9f2f88_o2_featured_v2.jpg", 50, 100, 21, 3.4, "North Indian, Mughlai, Chinese", 200, 700).get().outerHTML}</li>
-                    <li>${new Card("Carribean Pizza", "https://b.zmtcdn.com/data/pictures/4/19133644/711f8275e6e320a447c52854ed9f2f88_o2_featured_v2.jpg", 50, 100, 21, 3.4, "North Indian, Mughlai, Chinese", 200, 700).get().outerHTML}</li>
-                </ul>
+        this.content.innerHTML = `
+            <ul class  = "${styles["restaurant-list"]}">
+                ${LIST[id+1].restaurantList.map(item => {
+                    return `
+                    <li>${new Card(
+                        item.name,
+                        item.imgUrl,
+                        item.off,
+                        item.upto,
+                        item.time,
+                        item.rating,
+                        item.types,
+                        item.cost,
+                        item.order_placed
+                    ).get().outerHTML}</li>    
+                    `;
+                }).join("")}
+            </ul>
 
-                <div class = "${styles["search-end-wrapper"]}">
-                    <div class = "${styles["search-end"]}">
-                        End of search results
-                    </div>
-                    <div class = ${styles["search-end-image-wrapper"]}>
-                        <img alt="End of search results" 
-                        src="https://b.zmtcdn.com/web/assets/search/6d548ba48f0e4e4b46c19ad4b15a3f011615379209.jpeg" 
-                        class = "${styles["search-end-image"]}" />
-                    </div>
+            <div class = "${styles["search-end-wrapper"]}">
+                <div class = "${styles["search-end"]}">
+                    End of search results
                 </div>
-            `;
-        else if(id == 0){
-            this.content.innerHTML = `
-               Clicked on PIZZA!!
-            `;
-        }
-        else if(id == 1){
-            this.content.innerHTML = `
-                Clicked on Burger!!
-            `
-        }
-        else if(id == 2){
-            this.content.innerHTML = `
-                Clicked on Momos!!
-            `
-        }
+                <div class = ${styles["search-end-image-wrapper"]}>
+                    <img alt="End of search results" 
+                    src="https://b.zmtcdn.com/web/assets/search/6d548ba48f0e4e4b46c19ad4b15a3f011615379209.jpeg" 
+                    class = "${styles["search-end-image"]}" />
+                </div>
+            </div>
+        `;
     }
 
     get(){

@@ -7,7 +7,6 @@ class Main{
         this.content = document.createElement("main");
         this.content.classList.add(styles["max-width-wrapper"]);
         this.content.innerHTML = `
-            <div class = "${styles.heading}">Delivery Restaurants in Thakur Wara, Sohna, India</div>
             <ul class  = "${styles["restaurant-list"]}">
                 <li>${new Card("Carribean Pizza", "https://b.zmtcdn.com/data/pictures/4/19133644/711f8275e6e320a447c52854ed9f2f88_o2_featured_v2.jpg", 50, 100, 26, 3.1,"North Indian, Chinese", 150, 1125).get().outerHTML}</li>
                 <li>${new Card("Carribean Pizza", "https://b.zmtcdn.com/data/pictures/4/19133644/711f8275e6e320a447c52854ed9f2f88_o2_featured_v2.jpg", 50, 100, 24, 3.2,"North Indian", 350, 500).get().outerHTML}</li>

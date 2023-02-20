@@ -1,0 +1,21 @@
+.heading{
+    font-weight: 500;
+    font-size: 2rem;
+    padding: 1rem 0;
+    
+}
+
+.max-width-wrapper{
+    max-width: 1094px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left:0.8rem;
+    padding-right: 0.8rem;
+}
+
+.main-header{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+}

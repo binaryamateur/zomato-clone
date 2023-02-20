@@ -6,12 +6,6 @@
     padding-right: 0.8rem;
 }
 
-.heading{
-    font-weight: 500;
-    font-size: 2rem;
-    margin-bottom: 30px;
-}
-
 .restaurant-list{
     display: grid;
     grid-template-columns: repeat(3, minmax(10rem, 1fr));

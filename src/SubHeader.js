@@ -20,10 +20,10 @@ class SubHeader{
                 <div class = "${styles["food-list"]} ">
                     ${PICTURES.map((item,index) => {
                         return `
-                            <div id = "food${index}" class = "${styles["food-item"]}">
+                            <nav id = "food${index}" class = "${styles["food-item"]}">
                                 <img src = ${item.url} class = "${styles["food-image"]}" />
                                 <div class = "${styles["food-label"]}">${item.food}</div>
-                            </div>
+                            </nav>
                         `;
                     }).join('')}
                 </div>
